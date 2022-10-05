@@ -19,4 +19,5 @@ jobs:
       - uses: HeRoMo/pronto-action@v1.37.0
         with:
           runner: rubocop
+          commit: origin/main
           formatters: github_status github_pr_review
