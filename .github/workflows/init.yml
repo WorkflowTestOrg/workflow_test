@@ -1,4 +1,4 @@
-name: Init CI
+name: Init checks
 
 on:
   pull_request_target:
@@ -6,9 +6,8 @@ on:
 jobs:
   comment:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Comment on PR
+      - name: Add a welcome message
         uses: harupy/comment-on-pr@v0.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

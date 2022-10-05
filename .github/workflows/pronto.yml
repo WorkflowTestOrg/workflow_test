@@ -2,7 +2,7 @@ name: Pronto
 
 on:
   workflow_run:
-    workflows: [Init CI]
+    workflows: [Init checks]
     types:
       - completed
 
