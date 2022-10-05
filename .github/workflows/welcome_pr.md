@@ -1,6 +1,0 @@
-Thank you!
-
-Please note:
-
-- do this...
-- do that...
